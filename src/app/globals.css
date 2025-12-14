@@ -60,6 +60,17 @@
     }
   }
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 :root {
   --radius: 0.625rem;

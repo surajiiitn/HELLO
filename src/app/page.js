@@ -8,6 +8,7 @@ import FAQs from '../components/text-reveal-faqs.jsx';
 import Footer from '../components/footer.jsx';
 import Skill from '../components/skills'
 import SpotlightCard from '../components/SpotlightCard';
+import MentorsSection from "@/components/MentorsSection";
 
 export default function Home() {
   return (
@@ -116,7 +117,10 @@ export default function Home() {
           <span className="text-white">Meet Our {' '} </span>
           <span className="font-semibold text-teal-400">Mentors</span>
     </h2>
-        <br/><br/><br/><br/><br/><br/><br/>
+        {/* <br/><br/><br/><br/><br/><br/><br/> */}
+              <MentorsSection />
+
+
     <h2 className="mb-5 text-center font-medium text-white text-xl tracking-tight md:text-3xl">
           <span className="text-white">Curriculum Overview</span>
           <br/>
